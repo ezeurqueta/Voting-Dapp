@@ -2,12 +2,17 @@
 pragma solidity 0.5.16;
 
 contract Election {
-    //Store and Read candidates
-    string public candidate;
-    //Constructor
+    //Model a candidate
+    struct Candidate{
+        uint id;
+        string name;
+        uint voteCount;
+    }
+    //Store candidate
+    //Fetch candidate
+    //Store candidates count
 
     constructor() public {
-        string candidate = "Candidate 1";
 
     }
 
