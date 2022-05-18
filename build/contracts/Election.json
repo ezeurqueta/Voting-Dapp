@@ -23,15 +23,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"candidatesCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Elections.sol\":\"Election\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Elections.sol\":{\"keccak256\":\"0x1056d51f5370769c20ec5121b75c670f0669818175e89275dfc39db3d09107af\",\"urls\":[\"bzz-raw://2d704c9219251eb4ec45e4604471521f5a9394c48641ea2201a143b9b7da5a5f\",\"dweb:/ipfs/QmS4iRHtsX1daBLNGxtVmajQFHegvxgE4WNGLuDjiDcWnb\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506100556040518060400160405280600b81526020017f43616e646964617465203100000000000000000000000000000000000000000081525061009e60201b60201c565b6100996040518060400160405280600b81526020017f43616e646964617465203200000000000000000000000000000000000000000081525061009e60201b60201c565b6101be565b6001600081548092919060010191905055506040518060600160405280600154815260200182815260200160008152506000806001548152602001908152602001600020600082015181600001556020820151816001019080519060200190610108929190610119565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061015a57805160ff1916838001178555610188565b82800160010185558215610188579182015b8281111561018757825182559160200191906001019061016c565b5b5090506101959190610199565b5090565b6101bb91905b808211156101b757600081600090555060010161019f565b5090565b90565b6084806101cc6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632d35a8a214602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6001548156fea265627a7a72315820459f19845b08d81ad20de8ecffc203a57e8e56daf68c9bf7e49dd7bfe2e9ee9b64736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80632d35a8a214602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6001548156fea265627a7a72315820459f19845b08d81ad20de8ecffc203a57e8e56daf68c9bf7e49dd7bfe2e9ee9b64736f6c63430005100032",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"candidatesCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Election.sol\":\"Election\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Election.sol\":{\"keccak256\":\"0x1056d51f5370769c20ec5121b75c670f0669818175e89275dfc39db3d09107af\",\"urls\":[\"bzz-raw://2d704c9219251eb4ec45e4604471521f5a9394c48641ea2201a143b9b7da5a5f\",\"dweb:/ipfs/QmS4iRHtsX1daBLNGxtVmajQFHegvxgE4WNGLuDjiDcWnb\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506100556040518060400160405280600b81526020017f43616e646964617465203100000000000000000000000000000000000000000081525061009e60201b60201c565b6100996040518060400160405280600b81526020017f43616e646964617465203200000000000000000000000000000000000000000081525061009e60201b60201c565b6101be565b6001600081548092919060010191905055506040518060600160405280600154815260200182815260200160008152506000806001548152602001908152602001600020600082015181600001556020820151816001019080519060200190610108929190610119565b506040820151816002015590505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061015a57805160ff1916838001178555610188565b82800160010185558215610188579182015b8281111561018757825182559160200191906001019061016c565b5b5090506101959190610199565b5090565b6101bb91905b808211156101b757600081600090555060010161019f565b5090565b90565b6084806101cc6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80632d35a8a214602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6001548156fea265627a7a72315820d33700e7110986e433934490ac5382effdde7ca33fc938dca74c2f8e35daf4a464736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80632d35a8a214602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6001548156fea265627a7a72315820d33700e7110986e433934490ac5382effdde7ca33fc938dca74c2f8e35daf4a464736f6c63430005100032",
   "sourceMap": "57:566:0:-;;;345:102;8:9:-1;5:2;;;30:1;27;20:12;5:2;345:102:0;376:27;;;;;;;;;;;;;;;;;;:12;;;:27;;:::i;:::-;413;;;;;;;;;;;;;;;;;;:12;;;:27;;:::i;:::-;57:566;;453:162;514:15;;:18;;;;;;;;;;;;;572:36;;;;;;;;582:15;;572:36;;;;599:5;572:36;;;;606:1;572:36;;;542:10;:27;553:15;;542:27;;;;;;;;;;;:66;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;453:162;:::o;57:566::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
   "deployedSourceMap": "57:566:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;57:566:0;;;;;;;;;;;;;;;;;;;311:27;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.5.16;\n\ncontract Election {\n    //Model a candidate\n    struct Candidate{\n        uint id;\n        string name;\n        uint voteCount;\n    }\n    //Store candidate\n    mapping(uint => Candidate) candidates;\n    //Fetch candidate\n    //Store candidates count\n    uint public candidatesCount;\n\n    constructor() public {\n        addCandidate(\"Candidate 1\");\n        addCandidate(\"Candidate 2\");\n    }\n\n    function addCandidate(string memory _name) private {\n        candidatesCount ++;\n        candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);\n    }\n\n    \n}",
-  "sourcePath": "/home/ezequiel/Escritorio/voting_DApplication/contracts/Elections.sol",
+  "sourcePath": "/home/ezequiel/Escritorio/voting_DApplication/contracts/Election.sol",
   "ast": {
-    "absolutePath": "project:/contracts/Elections.sol",
+    "absolutePath": "project:/contracts/Election.sol",
     "exportedSymbols": {
       "Election": [
         46
@@ -627,7 +627,7 @@
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "project:/contracts/Elections.sol",
+      "absolutePath": "project:/contracts/Election.sol",
       "exportedSymbols": {
         "Election": [
           46
@@ -1291,12 +1291,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xAf81ad976B09a179Ceff1e36168171DD6E80DB3E",
-      "transactionHash": "0x3498ce8eacfc67d931576ac173971430d313652949f43c991f196bd354a2f9b8"
+      "address": "0x68A5A11af2B77D017390Af236C7Cf3A663969B84",
+      "transactionHash": "0xc2ca3f45e09a9d0bfe3cbd0d072ac2d0b112a2c360108896af4db1ee1a7800e0"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-05-17T23:42:47.139Z",
+  "updatedAt": "2022-05-18T22:25:42.699Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
